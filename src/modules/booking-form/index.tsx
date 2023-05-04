@@ -1,13 +1,13 @@
 import React, {useState} from "react";
+import { getHours, getTime, setHours, setMinutes} from "date-fns";
 import ChooseTime from "../../components/choose-time";
 import AddComment from "../../components/add-comment";
 import Choose from "../../components/choose";
-
-import {towers} from "../../components/choose/towers";
-import {floors} from "../../components/choose/floors";
-import {rooms} from "../../components/choose/rooms";
-import { getHours, getTime, setHours, setMinutes} from "date-fns";
 import toast from "react-hot-toast";
+
+import {towers} from "../../data/towers";
+import {floors} from "../../data/floors";
+import {rooms} from "../../data/rooms";
 
 const BookingForm = () => {
   const [startDate, setStartDate] = useState<Date>(new Date());

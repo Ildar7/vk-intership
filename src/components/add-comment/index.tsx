@@ -1,5 +1,5 @@
 import React, {FC} from "react";
-import {IProps} from "./type";
+import {IProps} from "./types";
 
 const AddComment: FC<IProps> = (props) => {
   const {message, setMessage} = props;

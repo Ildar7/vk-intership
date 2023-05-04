@@ -1,0 +1,9 @@
+// import libs
+@import url('./libs/_bootstrap-reboot.min.scss');
+
+// import static
+@import url('./static/base.scss');
+
+// import block styles
+@import url('./blocks/form.scss');
+@import url('./blocks/choose-time.scss');

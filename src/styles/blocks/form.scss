@@ -1,0 +1,49 @@
+.form {
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 25px 50px;
+  &__item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+    &-select {
+      min-width: 300px;
+    }
+    &-label {
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 26px;
+    }
+    textarea {
+      min-height: 50px;
+    }
+  }
+  &__button {
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 20px;
+    color: #fff;
+    transition: opacity 0.2s ease-in-out;
+    &:hover {
+      opacity: .8;
+      transition: opacity 0.2s ease-in-out;
+    }
+    &:last-child {
+      margin-right: 0;
+    }
+    &-send {
+      background: green;
+    }
+    &-clear {
+      background: darkred;
+    }
+    &s {
+      display: flex;
+    }
+  }
+}

@@ -1,0 +1,13 @@
+.choose-time {
+  &__item {
+    width: 32%;
+    input {
+      width: 100%;
+    }
+    &s {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+}

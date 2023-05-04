@@ -1,0 +1,54 @@
+*,
+::after,
+::before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  margin-bottom: 30px;
+}
+
+figure,
+figcaption {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+body {
+  background: #1d4579;
+}
+
+#root {
+  height: 100%;
+}
+
+.container {
+  max-width: 1300px;
+  padding: 50px 0;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title {
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+}
